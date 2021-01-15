@@ -23,7 +23,7 @@ const express = require('express'),
 
 // make server object that contain port property and the value for our server.
 var server = {
-  port: 4040
+  port:process.env.PORT || 4040 
 };
 
 // use the modules
